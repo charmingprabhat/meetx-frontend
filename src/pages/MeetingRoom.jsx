@@ -533,10 +533,10 @@ function MeetingRoom() {
   // CONNECT SOCKET
   const connectWebSocket = () => {
 
-    const socket =
-      new SockJS(
-        "http://localhost:8080/ws"
-      );
+   const socket =
+    new SockJS(
+        "https://meetx-backend-main-1.onrender.com/ws"
+    );
 
     const stompClient =
       new Client({
