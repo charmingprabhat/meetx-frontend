@@ -25,7 +25,7 @@ function Register() {
 
         try {
             const response = await axios.post(
-                "http://localhost:8080/addUser",
+                "https://meetx-backend-main-1.onrender.com/addUser",
                 register
             );
 
