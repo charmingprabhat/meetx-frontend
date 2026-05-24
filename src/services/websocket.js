@@ -6,9 +6,9 @@ let stompClient = null;
 export const connectWebSocket = (onConnected) => {
 
   // CREATE SOCKJS CONNECTION
-  const socket = new SockJS(
-    "http://localhost:8081/ws"
-  );
+ const socket = new SockJS(
+  "https://meetx-backend-main-1.onrender.com/ws"
+);
 
   // CREATE STOMP CLIENT
   stompClient = new Client({
